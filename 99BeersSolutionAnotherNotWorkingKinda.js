@@ -1,4 +1,5 @@
 var numberOfBottles = 99;
+
 while (numberOfBottles >= 0) {
   var bottleWord = "bottle";
   if (numberOfBottles === 1) {
