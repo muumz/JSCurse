@@ -1,1 +1,1 @@
-console.log("Im an idiot");
+console.log("Im an cool");
