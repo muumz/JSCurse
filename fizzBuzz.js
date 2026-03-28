@@ -22,3 +22,5 @@ function fizzBuzz() {
 fizzBuzz();
 
 //added a while loop so theres no need to spam function fizzbuzz
+// not that efficient, cus if i would forget count++ then it would crash, never get increates and 1 would always stay less than hundred and it will run until eternity and crash aka tab would hang
+
