@@ -1,18 +1,21 @@
 # Dice Game – JavaScript DOM Practice
+
 ## Overview
-This project is a simple dice game where the HTML and CSS were pre-built, and the main task was to add functionality using JavaScript. The goal was to practice working with the DOM and dynamically updating the UI based on logic.
+This project is a simple dice game where the HTML and CSS were pre-built. The main task was to implement the functionality using JavaScript, focusing on DOM manipulation and dynamic UI updates based on logic.
 
 ## What I Did
-Generated random numbers to simulate dice rolls (1–6)
-Updated image sources dynamically to reflect the dice results
-Selected and manipulated DOM elements using querySelector()
-Used conditional logic (if / else) to determine the winner
-Updated the <h1> text to display the result (Player 1 wins, Player 2 wins, or Draw)
+- Generated random numbers to simulate dice rolls (values between 1–6)
+- Dynamically updated image sources to match the dice results
+- Selected and manipulated DOM elements using `querySelector()`
+- Used conditional logic (`if / else`) to determine the winner
+- Updated the `<h1>` element to display the result (Player 1 wins, Player 2 wins, or Draw)
+
 ## Key Concepts Practiced
-DOM manipulation
-Event-free dynamic updates on page load
-Working with attributes (setAttribute)
-Using innerHTML to change content
-Basic game logic in JavaScript
+- DOM manipulation
+- Dynamic updates on page load (without user events)
+- Working with attributes using `setAttribute()`
+- Updating content with `innerHTML`
+- Implementing basic game logic in JavaScript
+
 ## Outcome
-This exercise helped reinforce how JavaScript interacts with HTML elements and how to build simple interactive features by combining logic with DOM manipulation.
+This exercise strengthened my understanding of how JavaScript interacts with HTML elements and how to build simple interactive features by combining logic with DOM manipulation.
