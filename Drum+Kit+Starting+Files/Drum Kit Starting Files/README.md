@@ -1,13 +1,15 @@
 # 🥁 Drum Kit Project
 
 ## Overview
-This project is an interactive **Drum Kit web application** built using **HTML, CSS, and JavaScript**. Users can play different drum sounds either by clicking buttons or pressing corresponding keys on the keyboard.
+
+This project is a **study exercise** where the HTML and CSS were already provided. The main goal was to implement the JavaScript functionality to make the page interactive.
 
 The goal of this project was to strengthen my understanding of **advanced JavaScript concepts** and **DOM manipulation** while building a fun and interactive application.
 
 ---
 
 ## 🚀 Features
+
 - Play drum sounds by clicking buttons
 - Play drum sounds using keyboard input
 - Button animations when a sound is triggered
@@ -18,6 +20,7 @@ The goal of this project was to strengthen my understanding of **advanced JavaSc
 ## 🧠 What I Learned
 
 ### 1. DOM Manipulation
+
 - Selecting elements using `querySelector` and `querySelectorAll`
 - Dynamically changing classes with `classList`
 - Updating UI based on user actions
@@ -25,21 +28,24 @@ The goal of this project was to strengthen my understanding of **advanced JavaSc
 ---
 
 ### 2. Event Listeners
+
 - Using `addEventListener` to listen for events
 - Handling click events on buttons
-- Handling keyboard events using 
+- Handling keyboard events using
 - Understanding event-driven programming
 
 ---
 
 ### 3. Keyboard Interaction
-- Detecting key presses 
+
+- Detecting key presses
 - Mapping keyboard keys to specific drum sounds
 - Passing event objects into functions
 
 ---
 
 ### 4. Higher-Order Functions
+
 - Functions that take other functions as arguments
 - Passing functions as parameters instead of calling them immediately
 - Writing more reusable and modular code
@@ -47,24 +53,28 @@ The goal of this project was to strengthen my understanding of **advanced JavaSc
 ---
 
 ### 5. Callbacks
+
 - Using callback functions to respond to user actions
 - Executing functions in response to events
 
 ---
 
 ### 6. Switch Statements
+
 - Using `switch` to map different keys to sounds
 - Cleaner alternative to multiple `if-else` statements
 
 ---
 
 ### 7. Playing Audio in JavaScript
+
 - Creating sound effects using the `Audio` object
 - Triggering sounds dynamically based on user input
 
 ---
 
 ### 8. JavaScript Objects & Constructor Functions
+
 - Creating objects using constructor functions
 - Adding methods inside objects
 - Using dot notation to access properties and methods
@@ -72,9 +82,9 @@ The goal of this project was to strengthen my understanding of **advanced JavaSc
 ---
 
 ### 9. Animations
+
 - Adding CSS classes dynamically for animations
 - Triggering visual feedback when buttons are pressed
 - Enhancing user experience with interactive effects
 
 ---
-
