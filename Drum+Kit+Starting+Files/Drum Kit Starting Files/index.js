@@ -1,3 +1,5 @@
+// Detecting button press
+
 const buttons = document.querySelectorAll(".drum");
 //could use button, but if any other button is added then it could change it and we can be more specific with .drum value
 
@@ -9,8 +11,19 @@ buttons.forEach((button) => {
 
 function playSound() {
   var buttonInnerHTML = this.innerHTML;
+  makeSound(buttonInnerHTML);
+  buttonAnimation(buttonInnerHTML);
+}
 
-  switch (buttonInnerHTML) {
+// Detetcting keyboard press
+
+document.addEventListener("keypress", function (event) {
+  makeSound(event.key);
+  buttonAnimation(event.key);
+});
+
+function makeSound(key) {
+  switch (key) {
     case "w":
       var crash = new Audio("sounds/crash.mp3");
       crash.play();
@@ -47,11 +60,21 @@ function playSound() {
       break;
 
     default:
-      break;
+      console.log(buttonInnerHTML);
   }
 }
 
-/*function changeBackground() {
+function buttonAnimation(currentKey) {
+  var activeButton = document.querySelector("." + currentKey);
+  activeButton.classList.add("pressed");
+  setTimeout(function () {
+    activeButton.classList.remove("pressed");
+    100;
+  });
+}
+/*
+
+function changeBackground() {
   this.style.color = "white";
 }
 
