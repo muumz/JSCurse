@@ -1,4 +1,5 @@
 const buttons = document.querySelectorAll(".drum");
+//could use button, but if any other button is added then it could change it and we can be more specific with .drum value
 
 buttons.forEach((button) => {
   button.addEventListener("click", playSound);
