@@ -70,4 +70,4 @@ Output:
 
 ## Author
 
-Made by [Your Name]
+Made by Kaiz
